@@ -76,7 +76,7 @@ footer{
     height: auto;
 }
 .footer-size{
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 .footer-list ul{
@@ -85,4 +85,26 @@ footer{
 
 .footer-list ul li{
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.footer-list ul li:first-child{
+    color: #F0B90B;
+    font-weight: bold;
+}
+
+.footer-text {
+    color: #F0B90B;
+    text-align: center;
+}
+
+.footer-icon a {
+    color: #F0B90B;
+    text-align: left;
+    font-size: 30px;
+}
+
+.footer-list-2{
+    list-style: none;
 }
