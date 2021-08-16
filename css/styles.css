@@ -1,0 +1,88 @@
+/* 
+*************
+* Header    *
+*************
+*/
+
+.back-first {
+    background-color: #2D2D2D;
+}
+/* Nav */
+
+.nav-text a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Body */
+.back-second {
+    background-image: url(assets/);
+}
+
+.container-size {
+    height: 1000px ;
+}
+
+
+/* 
+*************
+* Main      *
+*************
+*/
+
+/* Section 1 */
+
+.section-1{
+    margin: 70px auto;
+}
+
+.section-1 h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Section 2 */
+
+.back-third {
+    background: linear-gradient(266.79deg, #9F19AB -17.69%, #5F27BD 50.63%, #3D065F 127.99%);
+}
+
+/* Section 3 */
+
+.section-3{
+    margin: 60px 0 60px 0;
+}
+
+/* Section 4 */
+
+.back-four{
+    background-color: #CCD3FF;
+}
+
+.back-four h2{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/* 
+*************
+* Footer    *
+*************
+*/
+
+footer{
+    height: auto;
+}
+.footer-size{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.footer-list ul{
+    list-style: none;
+}
+
+.footer-list ul li{
+    color: white;
+}
