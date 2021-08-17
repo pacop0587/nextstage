@@ -60,10 +60,22 @@
     background-color: #CCD3FF;
 }
 
+.card-body h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.card-body p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .back-four h2{
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+
 }
 
 /* 
@@ -99,6 +111,7 @@ footer{
     text-align: center;
 }
 
+
 .footer-icon a {
     color: #F0B90B;
     text-align: left;
@@ -107,4 +120,8 @@ footer{
 
 .footer-list-2{
     list-style: none;
+}
+
+.footer-size p{
+    font-family: 'Montserrat', sans-serif;
 }
