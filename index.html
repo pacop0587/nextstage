@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <!-- Google Fonts -->
+    <!-- Google Fonts Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
+    <!-- Google Fonts Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
@@ -50,14 +50,15 @@
         </nav>
         <!-- End Nav -->
         <!-- Start Body -->
-        <div class="container container-size">
-            <div class="row">
-                <div class="col-md-6">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-2 body-text p-0 d-flex flex-column justify-content-center align-content-end">
                     <h2>The best way <br>
-                    <span>to win playing</span></h2>
+                    <span class="fw-bold">to win playing</span></h2>
+                    <p>Buy now!</p>
                 </div>
-                <div class="col-md-6 back-second">
-
+                <div class="col-md-10 body-img">
+                    <img src="assets/img/bacground1.png" alt="">
                 </div>
             </div>
         </div>
@@ -67,54 +68,56 @@
     <!-- Start Main -->
     <main class="container-fluid p-0">
         <!-- Start Section 1 -->
-        <section class="container section-1">
-            <div class="row">
-                <div class="col">
-                <h2>The benefits of using our plataform</h2>
+        <section class="section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col section1-text">
+                    <h2 class="fw-bolder py-3">The benefits of using our plataform</h2>
+                    </div>
                 </div>
-            </div>
-            <!-- Cards Section 1 -->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-3 border-0" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="assets/img/puzzle.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h3 class="card-title">Gaming Ecosystem</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis ipsam dolorem dolore sed vero, sunt repellat facere tempora libero cumque quas sapient.</p>
+                <!-- Cards Section 1 -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-3 border-0" style="max-width: 540px;">
+                            <div class="row g-0 d-flex flex-sm-column flex-md-row flex-sm-wrap flex-md-nowrap justify-content-sm-center">
+                                <div class="col-md-4 d-flex flex-sm-wrap align-content-center justify-content-md-end justify-content-sm-center">
+                                    <img src="assets/img/puzzle.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body section1-text">
+                                        <h3 class="card-title">Gaming Ecosystem</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis ipsam do.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-3 border-0" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="assets/img/shopping-cart.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h3 class="card-title">Own MarketPlace</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum porro in aliquam molestiae dolorum incidunt rem quaerat praesentium repellendus fugiat est it.</p>
+                    <div class="col-md-4">
+                        <div class="card mb-3 border-0" style="max-width: 540px;">
+                            <div class="row g-0 d-flex align-items-center">
+                                <div class="col-md-4 d-flex flex-sm-wrap align-content-center justify-content-md-end justify-content-sm-center">
+                                    <img src="assets/img/shopping-cart.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body section1-text">
+                                        <h3 class="card-title">Own MarketPlace</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum porro in aliqu.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card mb-3 border-0" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img src="assets/img/api.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h3 class="card-title">API for developers</h3>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro natus sit error quibusdam laboriosam fuga non impedit soluta cumque beatae, ab sequi al.</p>
+                    <div class="col-md-4">
+                        <div class="card mb-3 border-0" style="max-width: 540px;">
+                            <div class="row g-0 d-flex align-items-center">
+                                <div class="col-md-4 d-flex flex-sm-wrap align-content-center justify-content-md-end justify-content-sm-center">
+                                    <img src="assets/img/api.png" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body section1-text">
+                                        <h3 class="card-title">API for developers</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis porro natus sit.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -127,13 +130,13 @@
         <section class="container-fluid back-third">
             <div class="container">
                 <div class="row d-flex flex-md-row flex-sm-column-reverse">
-                    <div class="col-md-6 section2-text d-flex flex-column justify-content-center ps-5">
+                    <div class="col-md-6 section2-text d-flex flex-column justify-content-center ps-5 pb-3">
                         <h2>Visit <br>
                             <span class="fw-bolder text-light">NXST Store</span></h2>
                         <p>On our plataform you can buy and sell assets easily and safely.</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/img/computer.png" class="section2-img" width="100%" alt="">
+                        <img src="assets/img/computer.png" class="section2-img" alt="">
                     </div>
                 </div>
             </div>
@@ -143,7 +146,7 @@
         <section class="container">
             <div class="row section-3 d-flex flex-sm-column flex-md-row align-items-sm-center py-3">
                 <div class="col-md-6 d-flex justify-content-center py-1">
-                    <img src="assets/img/tech.png" class="section3-img" width="100%" alt="">
+                    <img src="assets/img/tech.png" class="section3-img" alt="">
                 </div>
                 <div class="col-md-6 d-flex flex-column justify-content-center section-3-text px-4 py-3">
                     <h3 class="fw-bold">Technology and security</h3>

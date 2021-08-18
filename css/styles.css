@@ -13,15 +13,30 @@
     padding: 10px;
     text-decoration: none;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Body */
-.back-second {
-    background-image: url(assets/);
+
+.body-img {
+    height: auto;
+    max-width: 100%;
 }
 
-.container-size {
-    height: 1000px ;
+.body-text {
+    position: relative;
+    /* margin-right: -100px; */
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body-text span{
+    color: #F0B90B;
+    font-weight: bolder;
+}
+
+.body-text h2{
+    font-size: 40px;
 }
 
 
@@ -34,12 +49,21 @@
 /* Section 1 */
 
 .section-1{
-    margin: 70px auto;
+    margin: 100px 0;
 }
 
 .section-1 h2 {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.section1-text{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section1-img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Section 2 */
@@ -59,7 +83,7 @@
 }
 
 .section2-img{
-    max-width: 570px;
+    max-width: 100%;
     height: auto;
     position: relative;
     margin-top: -30px;
@@ -76,7 +100,7 @@
 }
 
 .section3-img{
-    max-width: 460px;
+    max-width: 100%;
     height: auto;
 }
 
