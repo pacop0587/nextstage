@@ -18,21 +18,31 @@
 
 /* Body */
 
-.body-img {
+.body-img2 {
     height: auto;
     max-width: 100%;
+
 }
 
 .body-text {
-    position: relative;
     /* margin-right: -100px; */
     color: white;
     font-family: 'Montserrat', sans-serif;
+ 
 }
 
 .body-text span{
     color: #F0B90B;
     font-weight: bolder;
+}
+
+.body-text2 p{
+    background-color: #F0B90B;
+    color:#2D2D2D;
+    width: 100px;
+    text-align: center;
+    border-radius: 100px;
+    
 }
 
 .body-text h2{
