@@ -16,6 +16,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-img-1{
+    max-width: 100%;
+    height: auto;
+}
+
 /* Body */
 
 .body-img2 {
